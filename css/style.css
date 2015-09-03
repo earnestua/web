@@ -1,0 +1,135 @@
+html{	height:100%;}
+
+body{	background: #fff; /* Цвет фона */
+	background: url("../images/back_tp.png") fixed 50% 0px  #fff;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height: 1.25em;	/* Зазор между строками */
+}
+
+h1{
+	font-size:1.3em;
+	margin:15px;
+	font-weight:normal;
+	color:#555;
+/*	text-shadow: 2px 2px 4px #ccc;*/
+}
+
+h2{
+	font-size:1.5em;
+	margin:0px;*/
+	font-weight:normal;
+	color:#555;
+}
+
+h3{
+	font-size:1.1em;
+	font-weight:normal;
+	margin:0px;
+	color:#555;
+}
+
+a{	color:#555; text-decoration:none;}
+
+a:hover{color: black;}
+
+a img{	border:none;}
+
+hr{	height: 1px; 
+	background-color: transparent; 
+	border: 1px solid #ccc; 
+	border-width: 0px 0px 1px 0px; 
+} 
+
+:focus {
+outline: none;
+}
+
+.bigpic{			/* большая картинка */
+	display:block; 
+	margin:20px auto 40px;
+/*	border:1px solid grey;*/
+}
+
+.container{
+	position: relative; 	/* относительное позиционирование */
+	overflow: visible;	/* что бы блок растягивался вниз по ниджему краю внутренних компонентов */
+	margin: 0px auto;	/* слой прижат к верху и по центру */
+	width: 920px; 		/* Ширина слоя в пикселах */
+	height: 100%; 		/* Высота рисунка */
+	padding: 10px; 		/* Поля вокруг содержимого - ширина окна 920+10+10 */
+	background: url("../images/gradient.png") repeat-x fixed 50% 0px rgba(255,255,255,0.1);
+}
+
+.shadow{
+	border: solid 0px #fff; /* Параметры рамки вокруг */
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Для Firefox */
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Для Safari и Chrome */
+	box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Параметры тени */
+}
+
+/******* верхние сссылки *********************************************************/
+#btn{         			/* положение блока кнопок */
+/*	background: #8ff; 	/* Цвет фона */
+	position: absolute; 	/* Абсолютное позиционирование */
+	top: 10px; 		/* Положение слоя от верхнего края */
+	left: 50%; 		/* Положение слоя от левого края */
+	margin-left: 155px;	/* сдвиг вправо от середины */
+}
+
+#btn a{ 			/* описание кнопок */
+	letter-spacing:1.1px;
+	margin-left:1px;	/* зазоры между кнопками */
+	padding: 2px 7px; 
+	border-radius: 3px;
+}
+
+#btn a:hover { 		/* кнопка под курсором */
+	background: #ddd; /* Цвет фона */
+}
+
+/**********************************************************************************/
+.btb{				/* кнопка назад */
+	position: absolute; 	/* Абсолютное позиционирование */
+	top: 77px; 		/* Положение слоя от верхнего края */
+	margin-left: 830px;	/* сдвиг вправо */
+}
+
+/******* ссылки - картинки ********************************************************/
+.phbt{			/* размер блока определяется размером картинки */
+	display:inline-block; 
+        position:relative;
+	padding: 10px;		/* зазор внутри */
+	margin:7px;		/* зазор снаружи */
+
+}
+.phbt img{	border:1px solid #555; margin:0px;}
+.phbt p{	margin:0px 0px 10px; color:#555;}
+.phbt:hover{	background-color: #eee;}
+
+/********************************************************************************/
+.cont{
+	margin:0 auto;
+	padding: 0px 20px; 
+	text-align: justify;
+}
+.cont a{
+	font-weight:bold;
+}
+.phto{
+	padding:10px;
+	margin:0 0 10px 0;
+	background: #fff; 	/* Цвет фона */
+	border:solid 1px #ccc;	/* Параметры рамки вокруг */
+
+	}
+
+.video {
+	padding:10px;
+	margin:5px 0 25px 0;
+	background: #fff; 	/* Цвет фона */
+	border:solid 1px #ccc;	/* Параметры рамки вокруг */
+
+}

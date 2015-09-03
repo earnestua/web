@@ -1,0 +1,39 @@
+.horse {
+    border-collapse: collapse;
+    margin: 100px auto;
+}
+
+.horse td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.horse input {
+    display: none;
+}
+
+.horse label {
+    position: relative;
+    display: block;
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+.horse label:after {
+    content: "q";
+    position: absolute;
+    top: 0; left: 0;
+    display: none;
+    width: inherit;
+    height: inherit;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.horse input:checked ~ label:after {
+    display: block;
+}
